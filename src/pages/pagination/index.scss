@@ -1,0 +1,31 @@
+.parent-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    
+    .heading {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    table {
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        border: 1px solid green;
+    }
+    
+    .table th {
+        padding: 15px 10px;
+        background: #dcdcdc;
+        color: #000;
+        text-align: center;
+        border: 1px solid #dcdcdc;
+    }
+    
+    .table td {
+        padding: 15px 10px;
+        text-align: center;
+        border: 1px solid #dcdcdc;
+    }
+}
