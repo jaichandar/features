@@ -8,6 +8,7 @@ const Dashboard = () => {
     return (
         <div>
             <button onClick={() => navigate('/pagination')}>Pagination</button>
+            <button onClick={() => navigate('/notification')}>Notification app</button>
         </div>
     )
 }
